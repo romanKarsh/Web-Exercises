@@ -1,0 +1,177 @@
+/*** Exercise 1: Twitter CSS ***/
+
+/*
+#### You should not have to change the given property values. ###
+*/
+
+/*** Completed body style below ***/
+body {
+	background-color: #e6ecf0;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*** Removes default style from links ***/
+a {
+ 	text-decoration: none;
+ 	color: black;
+}
+
+/***********************************************
+********** Add to the selectors below **********
+************************************************/
+
+/* You only need to add where it says "Add properties below" */
+
+
+/*** Header and banner styles below ***/
+
+#header {
+	padding: 5px;
+	background-color: white;
+}
+
+.birdLogo {
+
+	/* Add properties below */
+
+}
+
+.bannerPic {
+	display: block;
+	width: 100%;
+
+	/* Add properties below */
+	
+}
+
+
+/*** Profile Statistics Bar styles below ***/
+
+#profileStats {
+	padding: 5px;
+	background-color: white;
+}
+
+#profileStats ul {
+	margin: 0px;
+	padding: 3px;
+	
+	/* Add properties below */
+	
+}
+
+#profileStats ul li {
+	margin-right: 20px;
+	font-weight: bold;
+	list-style: none; /* Gets rid of list bullet points */
+	text-align: center;
+	
+	/* Add a proper display property: We want the stats to have 
+	a height, but also appear side-by-side */
+
+	/*display: ;*/
+		
+}
+
+.profileStatsNumber {
+	display: block;
+	
+	/* Add properties below */
+
+}
+
+
+/*** Profile info box styles below ***/
+
+#profileInfo {
+	background-color: white;
+	padding: 10px;
+	
+	/* Add properties below */
+
+}
+
+
+/*** Timeline styles below ***/
+
+#timeline {
+	border-radius: 10px;
+	background-color: white;
+
+	/* Add properties below */
+
+}
+
+.timelineHeader {
+	border-bottom: 1px solid grey;
+}
+
+.timelineHeader ul {
+	margin: 0px;
+}
+
+.timelineHeader ul li {
+	padding: 10px;
+	margin-right: 20px;
+	font-size: 150%;
+	font-weight: bold;
+
+	/* Add properties below */
+	
+
+}
+
+
+/*** Tweet styles below ***/
+
+.tweet {
+	background-color: white;
+	
+	/* Add properties below */
+
+}
+
+/* For the div that holds the tweet icon */
+.tweetIconContainer {
+
+	/* Add properties below */
+
+}
+
+.tweetIcon {
+
+	/* Add properties below */
+
+}
+
+.tweetContent {
+	margin: 0px;
+
+	/* Add properties below */
+
+}
+
+/* For pictures inside tweets (like the Robarts pic) */
+.tweetContentPicture {
+	/* Add properties below */
+	
+}
+
+
+/* Style the big profile picture circle here. */
+#bigProfilePicCircle {
+	/* Add properties below */
+
+}
+
+
+/** Some font color classes for you to use. **/
+.grey {
+	color: grey;
+}
+
+
+.hashtag {
+	color: #5088e9;
+}
